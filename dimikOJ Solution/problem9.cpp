@@ -14,11 +14,11 @@ int main()
         long long int sqrtNum = sqrt(num);
         if (sqrtNum * sqrtNum == num)
         {
-            cout << "YES";
+            cout << "YES" << endl;
         }
         else
         {
-            cout << "NO";
+            cout << "NO" << endl;
         }
     }
 }

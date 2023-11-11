@@ -40,6 +40,7 @@ int main()
              << " "
              << midNum
              << " "
-             << maxNum;
+             << maxNum
+             << endl;
     }
 }
