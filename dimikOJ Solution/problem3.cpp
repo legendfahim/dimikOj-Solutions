@@ -1,11 +1,13 @@
 // dimikoj problem 3
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
+
 int number[999];
 int j = 1000;
+
 void print()
 {
-    int count;
+    int count = 0;
     for (j; j > j - 6; j--)
     {
         cout << j << '\t';
@@ -16,12 +18,14 @@ void print()
         count++;
         if (count % 5 == 0)
         {
-            cout;
+            cout << endl;
         }
     }
 }
+
 int main()
 {
-
     print();
+
+    return 0;
 }
